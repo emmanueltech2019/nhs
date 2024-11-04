@@ -42,6 +42,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
       <meta name="google-site-verification" content="AsGednocjU_dnyjgdfqb1rhNM2OSyLS1Sa9J7SMKSis" />
+      <meta name="msvalidate.01" content="2783FC5AF0F8800E5D726893D6236CBD" />
       </head>
       <body className={inter.className}>
         <NavBar/>
