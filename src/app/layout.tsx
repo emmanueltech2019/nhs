@@ -43,6 +43,17 @@ export default function RootLayout({
       <head>
       <meta name="google-site-verification" content="AsGednocjU_dnyjgdfqb1rhNM2OSyLS1Sa9J7SMKSis" />
       <meta name="msvalidate.01" content="2783FC5AF0F8800E5D726893D6236CBD" />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4FMTBYXP7"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-V4FMTBYXP7');
+            `,
+          }}
+        />
       </head>
       <body className={inter.className}>
         <NavBar/>
