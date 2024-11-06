@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.newyorkherniaspecialists.com/sitemap.xml
